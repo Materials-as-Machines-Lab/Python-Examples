@@ -1,0 +1,70 @@
+### Custom Style Sheet for Matplotlib 
+## Import using: 
+# "plt.style.use(r"C:\Users\Aiden\OneDrive - Carleton University\Materials as Machines Lab\Current Research\Aiden\Work\DMA\mystyle.mplstyle")"
+
+#####
+# Seaborn Colorblind color rotation
+# axes.prop_cycle: cycler('color', ['0072B2', '009E73', 'D55E00', 'CC79A7', 'F0E442', '56B4E9'])
+# patch.facecolor: 0072B2
+#####
+
+# Figure Colouring
+axes.facecolor : white
+figure.facecolor : white
+lines.color : black
+text.color : black
+
+# Set x axis
+xtick.direction : in
+xtick.major.size : 4
+xtick.major.width : 1
+xtick.minor.size : 2
+xtick.minor.width : 0.5
+xtick.minor.visible : True
+xtick.top : True
+xtick.color : black
+axes.xmargin : 0.05
+
+# Set y axis
+ytick.direction : in
+ytick.major.size : 4
+ytick.major.width : 1
+ytick.minor.size : 2
+ytick.minor.width : 0.5
+ytick.minor.visible : True
+ytick.right : True
+ytick.color : black
+axes.ymargin : 0.1
+
+# Set line widths
+axes.linewidth : 0.5
+grid.linewidth : 0.5
+lines.linewidth : 0.75
+lines.markersize : 0.75
+
+# Legend
+legend.frameon : False
+legend.fontsize : 8
+legend.markerscale : 1
+
+# Figure Saving
+savefig.bbox : tight
+savefig.pad_inches : 0.05
+
+# Set default colour, marker, and line type cycles
+axes.prop_cycle : (cycler('color', ['r','orange', 'b', 'g', 'm', 'c','tab:brown']) + cycler('ls', ['-', '--', ':', '-.','-','--','-']) + cycler('marker', ['o', 's', '^', 'v','o','s','^']))
+
+# Set default figure size
+figure.figsize : 15, 5
+figure.dpi : 600
+
+# Font sizes
+font.size : 12
+font.family : serif
+mathtext.fontset : dejavuserif
+
+# Use LaTeX for math formatting
+text.usetex : True
+#text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb}
+
+#####
